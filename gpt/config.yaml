@@ -1,0 +1,25 @@
+
+name: "Makers Mate"
+description: "Lowell Makes community helper — answers from shop rules, bylaws, and docs."
+owner_org: "Lowell Makes"
+visibility: "public"
+capabilities:
+  web_browsing: false        # Keep off in GPT for now; we can enable later.
+  code_interpreter: false
+  image_generation: false
+style:
+  persona: "friendly, concise, accurate"
+  format_preferences:
+    - "short answer first"
+    - "steps/checklist if helpful"
+    - "cite file names/sections when used"
+knowledge:
+  paths:
+    - "../knowledge"         # Human note: upload these files into the GPT Knowledge tab
+allowed_domains:            # For future browsing/tooling; not used yet.
+  - "lowellmakes.com"
+  - "wiki.lowellmakes.com"
+governance:
+  escalation: ["Executive Committee", "Shop Captains Council"]
+versioning:
+  scheme: "calver-minor"
