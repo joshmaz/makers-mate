@@ -1,12 +1,25 @@
 
+# Makers Mate GPT configuration (human- and machine-friendly)
+# ------------------------------------------------------------------
+# NOTE on capabilities:
+# In OpenAI Custom GPTs, these flags are ADVISORY ONLY for humans.
+# They do not enforce technical restrictions (e.g., domain whitelists).
+# If you later self-host or add a retrieval/browsing layer, scripts can
+# parse this YAML and enforce the rules below.
+
+
 name: "Makers Mate"
 description: "Lowell Makes community helper — answers from shop rules, bylaws, and docs."
 owner_org: "Lowell Makes"
 visibility: "public"
 capabilities:
-  web_browsing: false        # Keep off in GPT for now; we can enable later.
-  code_interpreter: false
-  image_generation: false
+  
+web_browsing: false  # Advisory in ChatGPT. If you enable browsing in the Builder UI,
+                     # the GPT can access the wider web (no domain fencing). Enforceable
+                     # domain limits are only possible in self-hosted/retriever setups.
+code_interpreter: false
+image_generation: false
+
 style:
   persona: "friendly, concise, accurate"
   format_preferences:
@@ -15,8 +28,8 @@ style:
     - "cite file names/sections when used"
 knowledge:
   paths:
-    - "../knowledge"         # Human note: upload these files into the GPT Knowledge tab
-allowed_domains:            # For future browsing/tooling; not used yet.
+    - "../knowledge"
+allowed_domains:
   - "lowellmakes.com"
   - "wiki.lowellmakes.com"
 governance:

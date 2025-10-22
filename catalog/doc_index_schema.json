@@ -1,0 +1,143 @@
+{
+  "description": "Canonical index of member-facing documents for Makers Mate.",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "example": "DOC-0001",
+      "notes": "Stable identifier used in references/PRs."
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "example": "Ceramics Shop Rules"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "Policy",
+        "Safety",
+        "SOP",
+        "Reference",
+        "Onboarding",
+        "Bylaws",
+        "Form",
+        "FAQ",
+        "Other"
+      ]
+    },
+    {
+      "name": "shop",
+      "type": "string",
+      "required": false,
+      "example": "Ceramics",
+      "notes": "Blank if org-wide."
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "Canonical",
+        "Draft",
+        "Superseded",
+        "Archived"
+      ]
+    },
+    {
+      "name": "owner_role",
+      "type": "string",
+      "required": true,
+      "example": "Shop Captain",
+      "notes": "Who is accountable (role)."
+    },
+    {
+      "name": "owner_name",
+      "type": "string",
+      "required": false,
+      "example": "Lee Example"
+    },
+    {
+      "name": "canonical_url",
+      "type": "string",
+      "required": true,
+      "example": "https://lowellmakes.com/docs/shops/ceramics/rules"
+    },
+    {
+      "name": "mirror_path",
+      "type": "string",
+      "required": false,
+      "example": "knowledge/2025-10-21_shop-ceramics_rules.md"
+    },
+    {
+      "name": "source_repo",
+      "type": "string",
+      "required": false,
+      "example": "https://github.com/lowellmakes/handbook"
+    },
+    {
+      "name": "doc_type",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "Markdown",
+        "PDF",
+        "HTML",
+        "Google Doc",
+        "Other"
+      ]
+    },
+    {
+      "name": "version",
+      "type": "string",
+      "required": false,
+      "example": "v2.3"
+    },
+    {
+      "name": "effective_date",
+      "type": "date",
+      "required": false,
+      "example": "2025-11-01"
+    },
+    {
+      "name": "last_updated",
+      "type": "date",
+      "required": true,
+      "example": "2025-10-21"
+    },
+    {
+      "name": "review_cycle",
+      "type": "string",
+      "required": false,
+      "example": "Quarterly",
+      "notes": "How often to review for freshness."
+    },
+    {
+      "name": "tags",
+      "type": "string",
+      "required": false,
+      "example": "safety, kiln, training"
+    },
+    {
+      "name": "access_level",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "Public",
+        "Members",
+        "Internal"
+      ],
+      "notes": "Controls what belongs in this public repo."
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

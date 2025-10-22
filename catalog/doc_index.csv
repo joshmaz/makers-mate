@@ -1,0 +1,3 @@
+id,title,category,shop,status,owner_role,owner_name,canonical_url,mirror_path,source_repo,doc_type,version,effective_date,last_updated,review_cycle,tags,access_level,notes
+DOC-0001,Lowell Makes Bylaws,Bylaws,,Canonical,Executive Committee,,https://lowellmakes.com/bylaws,knowledge/2025-10-21_bylaws_overview.md,,PDF,2020-12-01,2020-12-01,2025-10-21,Annually,governance,Public,Snapshot kept for quick reference; defer to canonical URL for latest.
+DOC-0101,Ceramics Shop Rules,Safety,Ceramics,Canonical,Shop Captain,,https://lowellmakes.com/docs/shops/ceramics/rules,knowledge/2025-10-21_shop-ceramics_rules.md,,Markdown,,,2025-10-21,Quarterly,"safety, rules",Public,
