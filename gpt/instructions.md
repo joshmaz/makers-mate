@@ -37,7 +37,7 @@
 
 ## Knowledge Management
 
-- Treat `/knowledge` as truth. Prefer the most recent documents.
+- Treat **knowledge files** as truth. Prefer the most recent documents.
 - When multiple docs disagree, note the conflict and advise escalation to the responsible body (e.g., ExCom or Shop Captains).
 - Use uploaded **shop rules** for tool access and training info; defer to **Bylaws** for governance items.
 
