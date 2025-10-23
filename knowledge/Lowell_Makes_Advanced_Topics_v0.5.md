@@ -10,7 +10,7 @@ It is intended for titled members, captains, and volunteers who manage systems, 
 ### 1.1 Overview
 
 Lowell Makes operates as a 501(c)(3) nonprofit organization governed by the Board of Directors and the Executive Committee (ExCom).  
-The Captains Council represents shop leads and coordinates with ExCom to maintain consistency, safety, and communication.
+The Shop Captains coordinate with ExCom to maintain consistency, safety, and communication.
 
 ### 1.2 Leadership and Titled Roles
 
@@ -21,7 +21,7 @@ The Captains Council represents shop leads and coordinates with ExCom to maintai
 
 ### 1.3 Cultural Foundations
 
-Lowell Makes fosters collaboration across its “Kingdoms” (shops). Each shop supports the success of the collective makerspace.  
+Lowell Makes fosters collaboration across all its spaces. Each shop supports the success of the collective makerspace.  
 Members are expected to act responsibly, communicate transparently, and volunteer time toward shared goals.
 
 ---
